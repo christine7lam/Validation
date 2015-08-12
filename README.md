@@ -4,16 +4,15 @@
 
 * You must have Node.js and npm installed
 * You must have git installed
-* You must have Redis installed
 * If you are on Windows you must restart your computer after you install Node.js
 
 ***
 
 ### Build (Client)
 
-To build this project you must first clone the `tycoon` repository:
+To build this project you must first clone the `Validation` repository:
 
-> `git clone http://username@stash.infra.gotyco.net/scm/tnweb/tycoon-ui.git`
+> `git clone http://username@gitHub.com/christine7lam/Validation`
 
 Next, change directory to the root of the project and download dependencies with NPM:
 
@@ -61,6 +60,6 @@ To override the defaults you should set the following environmental variables in
 
 To run the UI as a more permanent process, you should install the `forever` npm package and issue the following command:
 
-> `NODE_ENV=test PORT=80 forever start -c "npm start" /path/to/tycoon-ui`
+> `NODE_ENV=test PORT=80 forever start -c "npm start" /path/to/Validation`
 
 Please note that the default environment and port variables have been overridden here.
