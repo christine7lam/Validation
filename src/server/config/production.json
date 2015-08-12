@@ -1,0 +1,26 @@
+{
+  "env": "production",
+  "endpoints": {
+    "auth": {
+      "host": "web01.userauthservice.m2mdatalake.net"
+    },
+    "data": {
+      "host": "web01.dataapiservice.m2mdatalake.net"
+    },
+    "health": {
+      "host": "web01.devicehealthservice.m2mdatalake.net"
+    },
+    "rules": {
+      "host": "192.168.0.29"
+    },
+    "topology": {
+      "host": "web01.topologyservice.m2mdatalake.net"
+    }
+  },
+  "http": {
+    "port": 443,
+    "secure": {
+      "enabled": true
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.table {
+  > thead > tr > th {
+    font-weight: 500;
+    color: $brand-primary;
+  }
+}
+
+.table-hover {
+  > tbody {
+    > tr:hover {
+      cursor: pointer;
+    }
+  }
+}

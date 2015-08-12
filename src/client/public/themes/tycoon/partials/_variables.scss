@@ -1,0 +1,40 @@
+$icon-font-path:            'fonts/';
+
+$gray-base:                 #000 !default;
+
+$gray-darker:               lighten($gray-base, 13.5%) !default; // #222
+$gray-dark:                 lighten($gray-base, 20%) !default;   // #333
+$gray:                      lighten($gray-base, 33.5%) !default; // #555
+$gray-light:                lighten($gray-base, 86%) !default; // #dbdbdb
+$gray-lighter:              lighten($gray-base, 93.5%) !default; // #eee
+
+$brand-primary:             #0056A6;
+$brand-info:                #00ABFD;
+
+$link-color:                #049FDE;
+$link-hover-color:          #0055AA;
+
+$font-family-sans-serif:    "Roboto", sans-serif;
+$font-size-base:            14px !default;
+
+$headings-font-weight:      700 !default;
+$headings-color:            $brand-primary !default;
+
+
+$border-radius-base:        4px;
+$border-radius-large:       8px;
+$border-radius-small:       2px;
+
+
+$input-bg:                  #E4E4E4;
+$input-color:               $gray; //same as bootstrap atm
+$input-border-radius:       $border-radius-large;
+
+$form-group-margin-bottom:  20px;
+
+//spacing
+$space-xs:                  2px;
+$space-sm:                  5px;
+$space-md:                  10px;
+$space-lg:                  20px;
+$space-xl:                  40px;

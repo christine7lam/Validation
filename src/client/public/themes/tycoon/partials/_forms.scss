@@ -1,0 +1,31 @@
+.form-control {
+  @include box-shadow(none);
+  background: 0 none;
+  border: 1px solid $input-border;
+  border-radius: 0;
+
+  &:focus {
+    @include box-shadow(none);
+    background: 0 none;
+    border-width: 2px;
+  }
+}
+
+label {
+  font-weight: 500;
+}
+
+input:focus:invalid {
+  border: 2px solid $brand-danger;
+}
+
+.form-horizontal {
+  .form-group {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.validator .form-group {
+  float:left;
+}

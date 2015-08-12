@@ -1,0 +1,12 @@
+body {
+  font-weight: 300;
+  background-color: #f8f8f8;
+
+  margin-bottom: 40px;
+}
+
+a {
+  &:focus {
+    outline: none;
+  }
+}

@@ -1,0 +1,8 @@
+.qr-code {
+  display: inline-block;
+  margin: 5px 0 15px 0;
+  > svg {
+    height: 200px;
+    width: 200px;
+  }
+}

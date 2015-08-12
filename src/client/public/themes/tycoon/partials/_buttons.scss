@@ -1,0 +1,37 @@
+.btn {
+  border: 0;
+
+  &:active, &:focus, &:hover {
+    border: 0 !important;
+  }
+}
+
+.btn-lg {
+  border-radius: $border-radius-base;
+}
+
+.btn-primary {
+  &:hover,
+  &:focus,
+  &.focus,
+  &:active,
+  &.active {
+    border: 1px solid $brand-info;
+    background-color: $brand-info;
+  }
+}
+
+.btn-default {
+  color: $gray;
+  background-color: $input-bg;
+
+  &:hover {
+    color: $gray;
+  }
+}
+
+.btn-link {
+  &:hover {
+    cursor: pointer;
+  }
+}

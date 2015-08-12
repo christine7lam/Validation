@@ -1,0 +1,9 @@
+.pagination {
+  > li > a,
+  > li > span {
+    &:focus,
+    &:active {
+      background-color: none;
+    }
+  }
+}

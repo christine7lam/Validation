@@ -1,0 +1,62 @@
+.glyphicon {
+  height: 17px;
+  width: 16px;
+
+  vertical-align: middle;
+  top: inherit;
+}
+
+.glyphicon-status-green {
+  background: url('images/icons/glyphicon-status-green.svg') no-repeat;
+  &.disabled {
+    background: url('images/icons/glyphicon-status-green-off.svg') no-repeat;
+  }
+}
+
+.glyphicon-status-amber {
+  background: url('images/icons/glyphicon-status-amber.svg') no-repeat;
+  &.disabled {
+    background: url('images/icons/glyphicon-status-amber-off.svg') no-repeat;
+  }
+}
+
+.glyphicon-remove {
+  background: url('images/icons/glyphicon-remove.svg') no-repeat;
+
+  &:before {
+    content: '';
+  }
+
+  &.disabled {
+    background: url('images/icons/glyphicon-remove-off.svg') no-repeat;
+  }
+}
+
+.glyphicon-filter {
+  background: url('images/icons/glyphicon-filter.svg') no-repeat;
+
+  &:before {
+    content: '';
+  }
+
+  &.active {
+    background: url('images/icons/glyphicon-filter-on.svg') no-repeat;
+  }
+
+  &.disabled {
+    background: url('images/icons/glyphicon-filter-off.svg') no-repeat;
+  }
+
+}
+
+.glyphicon-search { background: url('images/icons/glyphicon-search.svg') no-repeat; }
+
+.glyphicon-edit {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.glyphicon-wifi { background: url('/images/icons/glyphicon-wifi.svg') no-repeat; }
+.glyphicon-ethernet { background: url('/images/icons/glyphicon-ethernet.svg') no-repeat; width: 26px; background-size: 26px 27px; background-position: 0 -4px; }
+.glyphicon-cell { background: url('/images/icons/glyphicon-cell.svg') no-repeat; background-size: 16px 17px; }

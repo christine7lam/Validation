@@ -1,0 +1,15 @@
+.breadcrumb {
+  background: 0 none;
+  display: inline-block;
+
+  border-radius: 0;
+
+  > li + li:before {
+    color: #999;
+    padding: 0 5px 0 8px;
+
+    font-size: 10px;
+    font-family: 'Glyphicons Halflings';
+    content: "\e258";
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "env": "development",
+  "endpoints": {
+    "auth": {
+      "host": "74.220.148.174",
+      "port": "80",
+      "path": "/dev/api/v1"
+    },
+    "data": {
+      "host": "74.220.148.146",
+      "port": "80"
+    },
+    "health": {
+      "host": "",
+      "port": "80"
+    },
+    "directory": {
+      "host": "208.50.140.172",
+      "port": "80"
+    },
+    "datamodel": {
+      "host": "10.192.243.23",
+      "port": "8080"
+    }
+  },
+  "express": {
+    "logger": true,
+    "public":  {
+      "dir": "./build"
+    },
+    "session": {
+      "host": "localhost",
+      "port": 6379,
+      "secret": "local-SeCr3t!_penguins21"
+    },
+    "template": {
+      "cache": false,
+      "ext": "ejs"
+    }
+  },
+  "http": {
+    "port": 80
+  }
+}

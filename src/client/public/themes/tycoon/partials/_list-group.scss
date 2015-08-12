@@ -1,0 +1,25 @@
+.list-group {
+  margin-bottom: 0;
+}
+
+.list-group-item {
+  background: none;
+  border: 0;
+  border-bottom: 1px solid $list-group-border;
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.list-group-item-heading {
+  color: $gray;
+  margin-bottom: 20px;
+}
+
+.list-group-item-text {
+  margin-bottom: 5px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

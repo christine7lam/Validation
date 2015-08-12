@@ -1,0 +1,17 @@
+.nav {
+  > li {
+    > a {
+      font-weight: 400;
+    }
+  }
+}
+
+.nav-stacked {
+  > li {
+    margin: 8px 0;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}
