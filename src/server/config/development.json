@@ -1,22 +1,6 @@
 {
   "env": "test",
   "endpoints": {
-    "auth": {
-      "host": "192.168.4.39",
-      "port": "8080"
-    },
-    "data": {
-      "host": "",
-      "port": "80"
-    },
-    "health": {
-      "host": "",
-      "port": "80"
-    },
-    "directory": {
-      "host": "192.168.4.46",
-      "port": "80"
-    },
     "dataModel": {
       "host": "208.50.140.121",
       "port": "8080"

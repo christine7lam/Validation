@@ -1,3 +1,7 @@
+/**
+ * Created by heipakchristine on 6/24/15.
+ */
+
 var React = require('react');
 var merge = require('classnames');
 
