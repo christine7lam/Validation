@@ -13,10 +13,6 @@ var request = promise.promisifyAll(require('request'));
 //data service
 var service = require('../services/validate');
 
-//helpers
-var i18n = require('../helpers/internationalization');
-
-
 router.post('/', function(req, res) {
 
     if (typeof req.body.data === 'undefined') {
